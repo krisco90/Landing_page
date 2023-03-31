@@ -40,6 +40,11 @@ a, a:hover, a:active, a:visited {
     color: #F9FAF8;
 }
 
+.header_text .secondary_text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .header_image {
     max-width: 100%;
     height: auto;
