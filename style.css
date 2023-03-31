@@ -33,6 +33,13 @@ a, a:hover, a:active, a:visited {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.header_text .main_text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
 .header_image {
     max-width: 100%;
     height: auto;
