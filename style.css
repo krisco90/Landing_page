@@ -28,10 +28,13 @@ a, a:hover, a:active, a:visited {
 }
 
 .header_body {
-    display: inline-flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: flex;
+    flex-flow: column-reverse nowrap;
+}
+
+.header_text {
+    flex-grow: 1;
+    order: 1;
 }
 
 .header_text .main_text {
@@ -48,6 +51,9 @@ a, a:hover, a:active, a:visited {
 .header_image {
     max-width: 100%;
     height: auto;
+    align-self: flex-end;
+    flex-basis: auto;
+    order: 2;
 }
 
 .header_top,
