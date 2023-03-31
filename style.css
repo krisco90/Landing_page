@@ -18,7 +18,12 @@
     display: flex;
     gap: 10px;
     list-style: none;
+    font-size: 18px;
+}
+
+a, a:hover, a:active, a:visited {
     text-decoration: none;
+    color: #e5e7eb;
 }
 
 .header_body {
