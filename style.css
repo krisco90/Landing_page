@@ -1,6 +1,12 @@
 .header {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
+}
+
+.header_top .logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header_top {
