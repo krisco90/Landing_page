@@ -88,6 +88,25 @@ button {
     text-align: center;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    padding: 50px 200px;
+}
+
+.quote_body {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote_author {
+    font-size: 36px;
+    font-weight: 700;
+}
+
 /* Website Footer */
 .footer {
     background-color: #1F2937;
