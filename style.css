@@ -84,3 +84,11 @@ button {
 
 
 /* Website Footer */
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
