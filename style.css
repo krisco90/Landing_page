@@ -88,6 +88,20 @@ button {
     text-align: center;
 }
 
+.cards {
+    display: inline-flex;
+    padding: 0px 150px 50px;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
 .quote {
     background-color: #e5e7eb;
     display: flex;
