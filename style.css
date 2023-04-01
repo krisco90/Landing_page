@@ -107,6 +107,19 @@ button {
     font-weight: 700;
 }
 
+.main_footer {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+    padding: 25px 100px;
+}
+
+.main_footer_hero {
+    font-weight: 700;
+}
+
 /* Website Footer */
 .footer {
     background-color: #1F2937;
